@@ -9,6 +9,7 @@
 #' @name wfpKenya
 #'
 #' @importFrom utils read.csv
+#' @importFrom odkr get_briefcase pull_remote export_data renameODK
 #'
 #'
 #
