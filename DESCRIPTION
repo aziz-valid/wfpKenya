@@ -1,0 +1,24 @@
+Package: wfpKenya
+Type: Package
+Title: The World Food Programme Kenya Country Strategic Plan Outcome Monitoring
+Version: 0.1.0
+Authors@R: c(
+    person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
+           email = "ernest@guevarra.io", role = c("aut", "cre")),
+    person("Abdoul-Aziz", "Goza", email = "aziz@validinternational.org", 
+           role = "aut"))
+Description: The World Food Programme Kenya Country Strategic Plan Outcome
+    Monitoring aims to assess WFP's progress towards its aims. This package
+    facilitates the processing, management and analysis of data collected for 
+    the outcome monitoring.
+License: GPL-3
+Imports: 
+    tidyr,
+    dplyr,
+    ppitables,
+    odkr (>= 0.3.2)
+Remotes:  
+    validmeasures/odkr
+Encoding: UTF-8
+LazyData: true
+
