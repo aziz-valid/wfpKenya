@@ -5,7 +5,7 @@
 \title{Function to pull outcome monitoring data from the ODK server.}
 \usage{
 get_wfp_data(id, username, password, start = Sys.Date(),
-  end = Sys.Date(), filename)
+  end = Sys.Date(), filename, remove.prefix = TRUE)
 }
 \arguments{
 \item{id}{Form ID of the different forms designed for the outcome monitoring
@@ -24,6 +24,9 @@ in export to CSV. Date format is <yyyy/MM/dd> and default value current
 system date}
 
 \item{filename}{Filename to use for data without the CSV file extension.}
+
+\item{remove.prefix}{Logical. If TRUE, remove the ODK group name prefix otherwise
+keep. Default is TRUE.}
 }
 \value{
 A data.frame corresponding to dataset corresponding to the form ID
