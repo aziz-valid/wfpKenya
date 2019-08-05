@@ -12,6 +12,7 @@ Description: The World Food Programme Kenya Country Strategic Plan Outcome
     facilitates the processing, management and analysis of data collected for 
     the outcome monitoring.
 License: GPL-3
+Depends: R (>= 2.10)
 Imports: 
     tidyr,
     dplyr,
