@@ -17,8 +17,6 @@
 #' Codebook for raw household dataset from WFP Kenya CSP outcome monitoring
 #' survey
 #'
-#' A data.frame with 2 columns and 651 rows corresponding to the variables in
-#' the raw \code{household} dataset.
 #'
 #'
 #
