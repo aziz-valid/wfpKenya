@@ -13,6 +13,8 @@
 #'   in export to CSV. Date format is <yyyy/MM/dd> and default value current
 #'   system date
 #' @param filename Filename to use for data without the CSV file extension.
+#' @param remove.prefix Logical. If TRUE, remove the ODK group name prefix otherwise
+#'   keep. Default is TRUE.
 #'
 #' @return A data.frame corresponding to dataset corresponding to the form ID
 #'   specified.
@@ -35,7 +37,7 @@
 
 get_wfp_data <- function(id, username, password,
                          start = Sys.Date(), end = Sys.Date(),
-                         filename) {
+                         filename, remove.prefix = TRUE) {
   ## Create temporary directory
   temp <- tempdir()
   ## Get latest briefcase and put in temporary directory
@@ -43,7 +45,7 @@ get_wfp_data <- function(id, username, password,
   ## Pull ODK forms definitions and submissions from server
   odkr::pull_remote(target = temp,
                     id = id,
-                    from = "https://ona.io",
+                    from = "https://ona.io/wfp_kenya",
                     to = temp,
                     username = username,
                     password = password)
@@ -59,6 +61,10 @@ get_wfp_data <- function(id, username, password,
   ## Read specified dataset
   surveyData <- read.csv(paste(temp, "/", filename, ".csv", sep = ""),
                          stringsAsFactors = FALSE)
+  ## Remove group name prefix
+  if(remove.prefix) {
+    surveyData <- odkr::renameODK(surveyData)
+  }
   ## Return data.frame
   return(surveyData)
 }
