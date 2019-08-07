@@ -4,7 +4,7 @@
 \name{individual}
 \alias{individual}
 \title{Raw individual dataset from WFP Kenya CSP outcome monitoring survey}
-\format{An object of class \code{data.frame} with 12240 rows and 141 columns.}
+\format{A data.frame with 12240 rows and 141 columns}
 \source{
 WFP Kenya CSP outcome monitoring survey data collection from
   15-29 August 2019
@@ -13,6 +13,6 @@ WFP Kenya CSP outcome monitoring survey data collection from
 individual
 }
 \description{
-A data.frame with 12240 rows and 141 columns
+Raw individual dataset from WFP Kenya CSP outcome monitoring survey
 }
 \keyword{datasets}

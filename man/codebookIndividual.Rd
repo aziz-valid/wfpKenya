@@ -5,11 +5,18 @@
 \alias{codebookIndividual}
 \title{Codebook for raw individual dataset from WFP Kenya CSP outcome monitoring
 survey}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 97 rows and 3 columns.}
+\format{A data.frame with 97 rows and 3 columns
+
+\describe{
+\item{\code{variable}}{Variable name}
+\item{\code{question}}{Question/variable description}
+\item{\code{choices}}{Choice of responses}
+}}
 \usage{
 codebookIndividual
 }
 \description{
-A data.frame with 97 rows and 3 columns
+Codebook for raw individual dataset from WFP Kenya CSP outcome monitoring
+survey
 }
 \keyword{datasets}
