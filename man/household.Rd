@@ -4,7 +4,7 @@
 \name{household}
 \alias{household}
 \title{Raw household dataset from WFP Kenya CSP outcome monitoring survey}
-\format{An object of class \code{data.frame} with 3059 rows and 656 columns.}
+\format{An object of class \code{data.frame} with 3060 rows and 656 columns.}
 \source{
 WFP Kenya CSP outcome monitoring survey data collection from
   15-29 August 2019
@@ -13,6 +13,6 @@ WFP Kenya CSP outcome monitoring survey data collection from
 household
 }
 \description{
-A data.frame with 656 columns and 3059 rows of per household observations.
+A data.frame with 656 columns and 3057 rows of per household observations.
 }
 \keyword{datasets}

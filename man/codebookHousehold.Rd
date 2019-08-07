@@ -10,7 +10,6 @@ survey}
 codebookHousehold
 }
 \description{
-Codebook for raw household dataset from WFP Kenya CSP outcome monitoring
-survey
+A data.frame with 649 rows and 3 columns
 }
 \keyword{datasets}
