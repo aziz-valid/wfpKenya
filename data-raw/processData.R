@@ -104,6 +104,8 @@ household <- subset(household, select = c(-identify_head, -consent1, -fcsInstruc
                                           -hhenf_l_instructions, -ccsi_instruction,
                                           -lcsi_instruction))
 
+household <- household[!is.na(household$vid), ]
+
 ## Save household data into package
 usethis::use_data(household, overwrite = TRUE)
 
@@ -285,6 +287,33 @@ community <- subset(temp,
                                -other_village, -replacement,
                                -replacement_name, -instanceID,
                                -KEY))
+
+## Update vid for thosw with 999
+community[78, "vid"]  <- 118
+community[77, "vid"]  <- 125
+community[60, "vid"]  <- 24
+community[79, "vid"]  <- 103
+community[106, "vid"] <- 153
+community[61, "vid"]  <- 23
+community[community$wid == 117, "vid"] <- 227
+community[community$cid == 6 & community$wid == 104, "vid"] <- 135
+
+community[196, "vid"] <- 39
+
+community[community$cid == 1 & community$wid == 20 & community$vid == 177, "vid"] <- 187
+community[community$cid == 8 & community$wid == 139 & community$vid == 177, "vid"] <- 236
+community[community$cid == 5 & community$wid == 100 & community$vid == 177, "vid"] <- 236
+community[community$cid == 3 & community$wid == 8 & community$vid == 177, "vid"] <- 180
+
+
+
+community[community$cid == 10 & community$wid == 9 & community$vid == 177 & community$today == "Jul 17, 2019", "vid"] <- 145
+community[community$cid == 3 & community$wid == 140 & community$vid == 177, "vid"] <- 237
+community[community$cid == 12 & community$wid == 64 & community$vid == 177, "vid"] <- 145
+
+
+
+
 
 community <- data.frame(psu, community)
 usethis::use_data(community, overwrite = TRUE)
