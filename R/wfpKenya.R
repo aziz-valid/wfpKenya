@@ -10,6 +10,7 @@
 #'
 #' @importFrom utils read.csv
 #' @importFrom odkr get_briefcase pull_remote export_data renameODK
+#' @importFrom stringr str_split
 #'
 #'
 #
