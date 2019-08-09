@@ -228,6 +228,7 @@ individual <- merge(individual, temp2, by.x = "id", by.y = "KEY", all.x = TRUE)
 ## Remove rows with all NA observations
 individual <- individual[individual$id != "[NA]", ]
 individual <- subset(individual, select = -name)
+individual <- subset(individual, presence == 1)
 usethis::use_data(individual, overwrite = TRUE)
 
 ################################################################################
@@ -256,11 +257,18 @@ usethis::use_data(codebookIndividual, overwrite = TRUE)
 
 
 ################################################################################
-
+#
+# Data checks
+#
+################################################################################
 
 id <- paste(stringr::str_pad(string = household$cid, width = 2, side = "left", pad = "0"),
             stringr::str_pad(string = household$wid, width = 3, side = "left", pad = "0"),
             stringr::str_pad(string = household$vid, width = 3, side = "left", pad = "0"),
             sep = "")
+
+## Create CSV of check parameters
+
+
 
 
