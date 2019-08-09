@@ -17,6 +17,7 @@ Imports:
     tidyr,
     dplyr,
     ppitables,
+    stringr,
     odkr (>= 0.3.2)
 Remotes: 
     validmeasures/odkr
