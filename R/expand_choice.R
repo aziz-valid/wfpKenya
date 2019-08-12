@@ -44,7 +44,10 @@ expandMultipleChoice <- function(df, x, values, pattern = "",
       result <- c(result, ifelse(j %in% temp[[i]], 1, 2))
     }
   }
-  result <- data.frame(matrix(result, ncol = length(values), nrow = length(temp), byrow = TRUE))
+  result <- data.frame(matrix(result,
+                              ncol = length(values),
+                              nrow = length(temp),
+                              byrow = TRUE))
   names(result) <- paste(prefix, labels, sep = sep)
   return(result)
 }
