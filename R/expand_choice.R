@@ -3,7 +3,7 @@
 #' Function to expand response to a more than one answer multiple choice
 #' question coded as a concatenated string
 #'
-#' @param df A data.frame containing the vector data that requires expansion.
+#' @param df A dataframe containing the vector data that requires expansion.
 #' @param x Name of variable in \code{df} containing vector needing expansion.
 #' @param values Vector of string values used to create concatenated string
 #'   response.
