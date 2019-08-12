@@ -2,7 +2,7 @@
 #
 #' Function to calculate Self-evaluated Resiliency Score (SERS)
 #'
-#' @param df Data.frame containing SERS-related variables
+#' @param df Dataframe containing SERS-related variables
 #' @param keep.na Logical. Apply recoding to NA responses? If TRUE (default),
 #'   NA responses will be recoded based on \code{response}. If FALSE, score
 #'   will be NA.
