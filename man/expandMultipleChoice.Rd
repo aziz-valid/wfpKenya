@@ -9,7 +9,7 @@ expandMultipleChoice(df, x, values, pattern = "", prefix = x,
   labels = values, sep = ".")
 }
 \arguments{
-\item{df}{A data.frame containing the vector data that requires expansion.}
+\item{df}{A dataframe containing the vector data that requires expansion.}
 
 \item{x}{Name of variable in \code{df} containing vector needing expansion.}
 

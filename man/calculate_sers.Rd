@@ -7,7 +7,7 @@
 calculate_sers(df, keep.na = TRUE, response = 3, add = FALSE)
 }
 \arguments{
-\item{df}{Data.frame containing SERS-related variables}
+\item{df}{Dataframe containing SERS-related variables}
 
 \item{keep.na}{Logical. Apply recoding to NA responses? If TRUE (default),
 NA responses will be recoded based on \code{response}. If FALSE, score
