@@ -25,7 +25,7 @@ calculate_mddw <- function(df, vars = c("mddw1", "mddw2", "mddw3",
   dNames <- NULL
 
   for(i in vars) {
-    dNames <- c(dNames, paste(i, paste("fg", 0:18, sep = ""), sep = "."))
+    dNames <- c(dNames, paste(i, paste(i, 0:18, sep = "."), sep = "."))
   }
 
   names(dd) <- dNames
@@ -35,11 +35,14 @@ calculate_mddw <- function(df, vars = c("mddw1", "mddw2", "mddw3",
                               x = i,
                               values = 0:18,
                               pattern = " ",
-                              prefix = "mddw",
+                              prefix = i,
+                              labels = 0:18,
                               sep = ".")
 
     dd[ , names(x)] <- x
   }
+
+
 
   return(dd)
 }
