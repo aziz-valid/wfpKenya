@@ -39,7 +39,7 @@ expandMultipleChoice <- function(df, x, values, pattern = "",
   result <- NULL
   for(i in 1:length(temp)) {
     for(j in values){
-      result <- c(result, ifelse(j %in% temp[[i]], 1, 2))
+      result <- c(result, ifelse(j %in% temp[[i]], 1, 0))
     }
   }
   result <- data.frame(matrix(result,
