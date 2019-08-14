@@ -2,6 +2,7 @@
 
 export(calculate_domain)
 export(calculate_mddw)
+export(calculate_production)
 export(calculate_sers)
 export(calculate_wg)
 export(expandMultipleChoice)
