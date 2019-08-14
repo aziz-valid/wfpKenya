@@ -1,5 +1,22 @@
 ################################################################################
 #
+#' Codebook for full raw dataset from WFP Kenya CSP outcome monitoring
+#' survey
+#'
+#' @format A data.frame with 1161 rows and 3 columns.
+#'
+#' \describe{
+#' \item{\code{variable}}{Variable name}
+#' \item{\code{question}}{Question/variable description}
+#' \item{\code{choices}}{Choice of responses}
+#' }
+#'
+#
+################################################################################
+"codebook"
+
+################################################################################
+#
 #' Raw household dataset from WFP Kenya CSP outcome monitoring survey
 #'
 #' @format A data.frame with 656 columns and 3057 rows of per household
