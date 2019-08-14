@@ -147,7 +147,7 @@ hhHead <- subset(hhHead, select = c(-identify_head, -consent1,
 hhHead$respondent <- 1
 
 hhHead$id <- paste(temp$SET.OF.survey.hh_repeat, "[",
-                   temp$hh_repeat_count, "]", sep = "")
+                   temp$head_id, "]", sep = "")
 
 names(hhHead) <- c(coreColumns[coreColumns != c("identify_head", "consent1")],
                    "presence", "missing", "missing_other",
@@ -173,7 +173,7 @@ hhOther <- subset(hhOther, select = c(-identify_head, -consent1,
 hhOther$respondent <- 2
 
 hhOther$id <- paste(temp$SET.OF.survey.hh_repeat, "[",
-                    temp$hh_repeat_count, "]", sep = "")
+                    temp$spouse1_id, "]", sep = "")
 
 names(hhOther) <- names(hhHead)
 
@@ -197,7 +197,7 @@ hhMaleYouth <- data.frame(hhMaleYouth[ , 1:127], hhMaleMDDW, hhMaleYouth[ , 128:
 hhMaleYouth$respondent <- 3
 
 hhMaleYouth$id <- paste(temp$SET.OF.survey.hh_repeat, "[",
-                        temp$hh_repeat_count, "]", sep = "")
+                        temp$myouth_id, "]", sep = "")
 
 names(hhMaleYouth) <- names(hhHead)
 
@@ -217,7 +217,7 @@ hhFemaleYouth <- subset(hhFemaleYouth, select = c(-identify_head, -consent1,
 hhFemaleYouth$respondent <- 4
 
 hhFemaleYouth$id <- paste(temp$SET.OF.survey.hh_repeat, "[",
-                          temp$hh_repeat_count, "]", sep = "")
+                          temp$fyouth_id, "]", sep = "")
 
 names(hhFemaleYouth) <- names(hhHead)
 
