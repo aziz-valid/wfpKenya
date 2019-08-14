@@ -66,6 +66,7 @@ codebook <- tibble::as_tibble(codebook)
 codebook$variable <- as.character(codebook$variable)
 codebook$question <- as.character(codebook$question)
 codebook$choices <- as.character(codebook$choices)
+usethis::use_data(codebook, overwrite = TRUE)
 
 ################################################################################
 #
