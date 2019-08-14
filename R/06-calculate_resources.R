@@ -24,13 +24,13 @@ calculate_resources <- function(df) {
   x[rowSums(df[ , paste("weai_dimension2",
                         letters[1:14],
                         sep = "")] - 1,
-            na.rm = TRUE) > 0] <- 1
+            na.rm = TRUE) == 14] <- 1
 
   x[rowSums(df[ , paste("weai_dimension2",
                         letters[1:14],
                         "_1",
                         sep = "")] - 1,
-            na.rm = TRUE) > 0] <- 1
+            na.rm = TRUE) == 14] <- 1
 
   x[rowSums(df[ , paste("weai_dimension2",
                         letters[1:14],
