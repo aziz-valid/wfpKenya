@@ -7,6 +7,10 @@
 #'   variables.
 #' @param domain Variable name of domain-specific Washington Group on Disability
 #'   indicator.
+#' @param add Logical. Should the calculated Washington Group on Disability
+#'   domain values be added to \code{df}? If TRUE, Washington Group on Disability
+#'   results for specific domain will be concatenated to \code{df} using
+#'   \code{cbind}. Default is FALSE.
 #'
 #' @return A dataframe of domain-specific Washington Group on Disability
 #'   indicators.
@@ -20,7 +24,7 @@
 #
 ################################################################################
 
-calculate_domain <- function(df, domain) {
+calculate_domain <- function(df, domain, add = FALSE) {
   d0 <- ifelse(df[[domain]] == 1, 1, 0)
   d1 <- ifelse(df[[domain]] %in% 2:4, 1, 0)
   d2 <- ifelse(df[[domain]] %in% 3:4, 1, 0)
@@ -37,6 +41,10 @@ calculate_domain <- function(df, domain) {
 #'
 #' @param df Dataframe containing Washington Group on Disability domain-specific
 #'   variables.
+#' @param add Logical. Should the calculated Washington Group on Disability
+#'   values be added to \code{df}? If TRUE, Washington Group on Disability
+#'   results will be concatenated to \code{df} using \code{cbind}.
+#'   Default is FALSE.
 #'
 #' @return A dataframe of recoded domain-specific and overall Washington Group
 #'   on Disability values.
@@ -50,7 +58,7 @@ calculate_domain <- function(df, domain) {
 #
 ################################################################################
 
-calculate_wg <- function(df) {
+calculate_wg <- function(df, add = FALSE) {
   p <- data.frame(matrix(data = NA, nrow = nrow(df), ncol = 24))
 
   pNames <- NULL
