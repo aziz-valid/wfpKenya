@@ -10,9 +10,14 @@
 #'
 #' @importFrom utils read.csv
 #' @importFrom odkr get_briefcase pull_remote export_data renameODK
-#' @importFrom stringr str_split
+#' @importFrom stringr str_split str_detect
 #'
 #'
 #
 ################################################################################
 NULL
+
+## quiets concerns of R CMD check re: the psus and THRESHOLD that appear in bbw
+if(getRversion() >= "2.15.1")  utils::globalVariables(c("sex",
+                                                        "respondent",
+                                                        "hh_member_age"))
