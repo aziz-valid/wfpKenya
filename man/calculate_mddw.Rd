@@ -2,7 +2,7 @@
 % Please edit documentation in R/04-calculate_mddw.R
 \name{calculate_mddw}
 \alias{calculate_mddw}
-\title{Function to calculate Maternal Dietary Diversity for Women.}
+\title{Function to recode 18 food items into 10 food groups specific to MDDW.}
 \usage{
 calculate_mddw(df, vars = c("mddw1", "mddw2", "mddw3", "mddw4", "mddw5",
   "mddw6"))
@@ -11,13 +11,16 @@ calculate_mddw(df, vars = c("mddw1", "mddw2", "mddw3", "mddw4", "mddw5",
 \item{df}{Dataframe containing Maternal Dietary Diversity for Women
 variables.}
 
-\item{vars}{Variables names of MDDW-relevant information.}
+\item{vars}{Variable names of MDDW-relevant information.}
 }
 \value{
-A dataframe
+A dataframe with number of rows equal to number of rows of \code{df}
+  and columns for each of the 10 food groups relevent to MDDW recoded into 1
+  (consumed) or 0 (not consumed), for total number of food groups consumed,
+  and whether a minimum of 5 food groups have been consumed.
 }
 \description{
-Function to calculate Maternal Dietary Diversity for Women.
+Function to recode 18 food items into 10 food groups specific to MDDW.
 }
 \examples{
 

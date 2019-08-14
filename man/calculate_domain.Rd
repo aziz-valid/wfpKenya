@@ -5,7 +5,7 @@
 \title{Function to calculate any of the domains of the Washington Group on
 Disability indicators.}
 \usage{
-calculate_domain(df, domain)
+calculate_domain(df, domain, add = FALSE)
 }
 \arguments{
 \item{df}{Dataframe containing Washington Group on Disability domain-specific
@@ -13,6 +13,11 @@ variables.}
 
 \item{domain}{Variable name of domain-specific Washington Group on Disability
 indicator.}
+
+\item{add}{Logical. Should the calculated Washington Group on Disability
+domain values be added to \code{df}? If TRUE, Washington Group on Disability
+results for specific domain will be concatenated to \code{df} using
+\code{cbind}. Default is FALSE.}
 }
 \value{
 A dataframe of domain-specific Washington Group on Disability

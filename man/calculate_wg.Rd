@@ -4,11 +4,16 @@
 \alias{calculate_wg}
 \title{Function to calculate all domains and overall Washington Group on Disability}
 \usage{
-calculate_wg(df)
+calculate_wg(df, add = FALSE)
 }
 \arguments{
 \item{df}{Dataframe containing Washington Group on Disability domain-specific
 variables.}
+
+\item{add}{Logical. Should the calculated Washington Group on Disability
+values be added to \code{df}? If TRUE, Washington Group on Disability
+results will be concatenated to \code{df} using \code{cbind}.
+Default is FALSE.}
 }
 \value{
 A dataframe of recoded domain-specific and overall Washington Group
