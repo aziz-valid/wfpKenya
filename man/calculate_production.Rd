@@ -11,7 +11,8 @@ calculate_production(df)
 \item{df}{Dataframe containing A-WEAI production indicator variables.}
 }
 \value{
-A dataframe
+A vector recode of WEAI production dimension of 1 (deficit) or
+  0 (non-deficit)
 }
 \description{
 Function to calculate production dimension indicators of the Abbreviated
