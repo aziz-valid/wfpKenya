@@ -239,6 +239,7 @@ usethis::use_data(community, overwrite = TRUE)
 ## Create psu population data.frame
 
 psuData <- community[, c("vid", "dm1")]
+names(psuData) <- c("psu", "pop")
 usethis::use_data(psuData, overwrite = TRUE)
 
 
