@@ -39,9 +39,10 @@ calculate_sers <- function(df, keep.na = TRUE, response = 3, add = FALSE) {
                   FUN = function(x) ifelse(x %in% c(88, 99), response, x))
   }
 
-  sers <- apply(X = temp, MARGIN = 2, FUN = function(x) x * 0.2)
+  sers <- apply(X = temp, MARGIN = 2, FUN = function(x) x * 0.02)
   score <- rowSums(sers)
-  sers <- data.frame(sers, score)
+  resilience <- ifelse(score == 1, 1, 0)
+  sers <- data.frame(sers, score, resilience)
 
   if(add) data.frame(df, sers) else
     return(sers)
