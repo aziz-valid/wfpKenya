@@ -19,7 +19,7 @@
 #
 #' Raw household dataset from WFP Kenya CSP outcome monitoring survey
 #'
-#' @format A data.frame with 656 columns and 3057 rows of per household
+#' @format A data.frame with 658 columns and 3036 rows of per household
 #'   observations.
 #'
 #' @source WFP Kenya CSP outcome monitoring survey data collection from
@@ -52,7 +52,7 @@
 #
 #' Raw roster dataset from WFP Kenya CSP outcome monitoring survey
 #'
-#' @format A data.frame with 16520 rows and 37 columns
+#' @format A data.frame with 16518 rows and 39 columns
 #'
 #' @source WFP Kenya CSP outcome monitoring survey data collection from
 #'   15-29 August 2019
@@ -83,7 +83,7 @@
 #
 #' Raw individual dataset from WFP Kenya CSP outcome monitoring survey
 #'
-#' @format A data.frame with 4920 rows and 141 columns
+#' @format A data.frame with 4920 rows and 159 columns
 #'
 #' @source WFP Kenya CSP outcome monitoring survey data collection from
 #'   15-29 August 2019
@@ -115,7 +115,12 @@
 #
 #' Primary sampling unit population dataset
 #'
-#' @format A data.frame with 202 rows and 2 columns.
+#' @format A data.frame with 203 rows and 2 columns.
+#'
+#' \describe{
+#' \item{\code{psu}}{Primary sampling unit; Village identifier}
+#' \item{\code{pop}}{Village population size}
+#' }
 #'
 #' @source WFP Kenya CSP outcome monitoring survey data collection from
 #'   15-29 August 2019
@@ -129,7 +134,7 @@
 #
 #' Raw community dataset from WFP Kenya CSP outcome monitoring survey
 #'
-#' @format A data.frame with 202 rows and 23 columns
+#' @format A data.frame with 203 rows and 25 columns
 #'
 #' @source WFP Kenya CSP outcome monitoring survey data collection from
 #'   15-29 August 2019
