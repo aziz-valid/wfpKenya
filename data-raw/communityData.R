@@ -11,6 +11,10 @@ library(readxl)
 #
 ################################################################################
 
+## Read sample list
+sampleList <- read.csv("data-raw/data/villageLhz.csv")
+
+
 ## Pull community data
 temp <- get_wfp_data(id = "community",
                      username = "validmeasures",
@@ -234,6 +238,9 @@ community[112, "vid"] <- 178
 community[4, "vid"] <- 239
 community[113, "vid"] <- 263
 
+community <- merge(community, sampleList[ , c("villageID", "studyGroup")],
+                   by.x = "vid", by.y = "villageID", all.x = TRUE)
+community[community$vid == 1961, "studyGroup"] <- 2
 usethis::use_data(community, overwrite = TRUE)
 
 ## Create psu population data.frame
