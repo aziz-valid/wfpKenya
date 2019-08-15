@@ -26,3 +26,17 @@ names(wg) <- c("psu", "hhid", "sex", "age", "respondent", "studyGroup", "lhz",
 
 usethis::use_data(wg, overwrite = TRUE)
 
+
+################################################################################
+#
+# Calculate MDDW indicators dataset
+#
+################################################################################
+
+mddw <- data.frame(individual[individual$sex == 2, coreVars],
+                   calculate_mddw(df = individual[individual$sex == 2, ]))
+names(mddw) <- c("psu", "hhid", "sex", "age", "respondent", "studyGroup", "lhz",
+                 paste("fg", 1:10, sep = ""), "fg", "mddw")
+usethis::use_data(mddw, overwrite = TRUE)
+
+
