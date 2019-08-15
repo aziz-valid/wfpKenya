@@ -135,6 +135,12 @@ household[household$vid == 166, "vid"] <- 165
 household[household$vid == 267, "vid"] <- 266
 household[household$vid == 20, "vid"] <- 21
 
+household <- merge(household, sampleList[ , c("villageID", "studyGroup", "lhz")],
+                   by.x = "vid", by.y = "villageID", all.x = TRUE)
+
+household[household$vid == 1961, "studyGroup"] <- 2
+household[household$vid == 1961, "lhz"] <- 4
+
 ## Save household data into package
 usethis::use_data(household, overwrite = TRUE)
 
@@ -151,6 +157,41 @@ roster <- merge(temp[ , coreColumns], temp2,
 ## Remove unnecessary columns with no data
 roster <- subset(roster, select = c(-identify_head, -consent1,
                                     -name, -hh_next_member))
+
+## clean up
+roster[roster$vid == 94, "vid"] <- 93
+roster[roster$vid == 134, "vid"] <- 133
+roster[roster$cid == 1 & roster$wid == 126 & roster$vid == 7, "wid"] <- 13
+roster[roster$cid == 1 & roster$wid == 13 & roster$vid == 7, "vid"] <- 8
+roster[roster$vid == 74, "vid"] <- 73
+roster[roster$vid == 183, "vid"] <- 8
+roster[roster$vid == 250, "vid"] <- 192
+roster[roster$vid == 229, "vid"] <- 158
+roster[roster$vid == 261, "vid"] <- 158
+roster[roster$vid == 148, "vid"] <- 147
+roster[roster$vid == 225, "vid"] <- 98
+roster[roster$vid == 215, "vid"] <- 64
+roster[roster$vid == 83, "vid"] <- 82
+roster[roster$vid == 257, "vid"] <- 54
+roster[roster$vid == 247, "vid"] <- 186
+roster[roster$vid == 80, "vid"] <- 202
+roster[roster$vid == 81, "vid"] <- 202
+roster[roster$vid == 265, "vid"] <- 59
+roster[roster$vid == 196 & roster$gps.Longitude > 37.70, "vid"] <- 1961
+roster[roster$vid == 88, "vid"] <- 209
+roster[roster$vid == 164, "wid"] <- 44
+roster[roster$vid == 164, "vid"] <- 163
+roster[roster$vid == 70, "vid"] <- 84
+roster[roster$vid == 166, "vid"] <- 165
+roster[roster$vid == 267, "vid"] <- 266
+roster[roster$vid == 20, "vid"] <- 21
+
+roster <- merge(roster, sampleList[ , c("villageID", "studyGroup", "lhz")],
+                by.x = "vid", by.y = "villageID", all.x = TRUE)
+
+roster[roster$vid == 1961, "studyGroup"] <- 2
+roster[roster$vid == 1961, "lhz"] <- 4
+
 usethis::use_data(roster, overwrite = TRUE)
 
 ################################################################################
@@ -258,6 +299,41 @@ individual <- merge(individual, temp2, by.x = "id", by.y = "KEY", all.x = TRUE)
 individual <- individual[individual$id != "[NA]", ]
 individual <- subset(individual, select = -name)
 individual <- subset(individual, presence == 1)
+
+## clean up
+individual[individual$vid == 94, "vid"] <- 93
+individual[individual$vid == 134, "vid"] <- 133
+individual[individual$cid == 1 & individual$wid == 126 & individual$vid == 7, "wid"] <- 13
+individual[individual$cid == 1 & individual$wid == 13 & individual$vid == 7, "vid"] <- 8
+individual[individual$vid == 74, "vid"] <- 73
+individual[individual$vid == 183, "vid"] <- 8
+individual[individual$vid == 250, "vid"] <- 192
+individual[individual$vid == 229, "vid"] <- 158
+individual[individual$vid == 261, "vid"] <- 158
+individual[individual$vid == 148, "vid"] <- 147
+individual[individual$vid == 225, "vid"] <- 98
+individual[individual$vid == 215, "vid"] <- 64
+individual[individual$vid == 83, "vid"] <- 82
+individual[individual$vid == 257, "vid"] <- 54
+individual[individual$vid == 247, "vid"] <- 186
+individual[individual$vid == 80, "vid"] <- 202
+individual[individual$vid == 81, "vid"] <- 202
+individual[individual$vid == 265, "vid"] <- 59
+individual[individual$vid == 196 & individual$gps.Longitude > 37.70, "vid"] <- 1961
+individual[individual$vid == 88, "vid"] <- 209
+individual[individual$vid == 164, "wid"] <- 44
+individual[individual$vid == 164, "vid"] <- 163
+individual[individual$vid == 70, "vid"] <- 84
+individual[individual$vid == 166, "vid"] <- 165
+individual[individual$vid == 267, "vid"] <- 266
+individual[individual$vid == 20, "vid"] <- 21
+
+individual <- merge(individual, sampleList[ , c("villageID", "studyGroup", "lhz")],
+                by.x = "vid", by.y = "villageID", all.x = TRUE)
+
+individual[individual$vid == 1961, "studyGroup"] <- 2
+individual[individual$vid == 1961, "lhz"] <- 4
+
 usethis::use_data(individual, overwrite = TRUE)
 
 ################################################################################
