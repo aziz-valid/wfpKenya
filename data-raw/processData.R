@@ -107,6 +107,34 @@ household <- subset(household, select = c(-identify_head, -consent1, -fcsInstruc
 
 household <- household[!is.na(household$vid), ]
 
+## clean up
+household[household$vid == 94, "vid"] <- 93
+household[household$vid == 134, "vid"] <- 133
+household[household$cid == 1 & household$wid == 126 & household$vid == 7, "wid"] <- 13
+household[household$cid == 1 & household$wid == 13 & household$vid == 7, "vid"] <- 8
+household[household$vid == 74, "vid"] <- 73
+household[household$vid == 183, "vid"] <- 8
+household[household$vid == 250, "vid"] <- 192
+household[household$vid == 229, "vid"] <- 158
+household[household$vid == 261, "vid"] <- 158
+household[household$vid == 148, "vid"] <- 147
+household[household$vid == 225, "vid"] <- 98
+household[household$vid == 215, "vid"] <- 64
+household[household$vid == 83, "vid"] <- 82
+household[household$vid == 257, "vid"] <- 54
+household[household$vid == 247, "vid"] <- 186
+household[household$vid == 80, "vid"] <- 202
+household[household$vid == 81, "vid"] <- 202
+household[household$vid == 265, "vid"] <- 59
+household[household$vid == 196 & household$gps.Longitude > 37.70, "vid"] <- 1961
+household[household$vid == 88, "vid"] <- 209
+household[household$vid == 164, "wid"] <- 44
+household[household$vid == 164, "vid"] <- 163
+household[household$vid == 70, "vid"] <- 84
+household[household$vid == 166, "vid"] <- 165
+household[household$vid == 267, "vid"] <- 266
+household[household$vid == 20, "vid"] <- 21
+
 ## Save household data into package
 usethis::use_data(household, overwrite = TRUE)
 
