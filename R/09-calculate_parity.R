@@ -1,6 +1,6 @@
 ################################################################################
 #
-#' Function to calculate Gender Parity index per dimension indicators of the
+#' Function to calculate Gender Parity Index per dimension indicators of the
 #' Abbreviated Women's Empowerment in Agriculture Index (A-WEAI).
 #'
 #' @param df Dataframe containing recoded A-WEAI dimension indicators.
