@@ -59,5 +59,7 @@ calculate_gpi <- function(df) {
   names(youthGap) <- c("production", "resources", "credit", "group")
 
   gap <- list(mainGap, youthGap)
+  names(gap) <- c("main", "youth")
+
   return(gap)
 }
