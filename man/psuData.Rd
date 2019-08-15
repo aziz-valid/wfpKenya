@@ -4,7 +4,12 @@
 \name{psuData}
 \alias{psuData}
 \title{Primary sampling unit population dataset}
-\format{A data.frame with 202 rows and 2 columns.}
+\format{A data.frame with 203 rows and 2 columns.
+
+\describe{
+\item{\code{psu}}{Primary sampling unit; Village identifier}
+\item{\code{pop}}{Village population size}
+}}
 \source{
 WFP Kenya CSP outcome monitoring survey data collection from
   15-29 August 2019

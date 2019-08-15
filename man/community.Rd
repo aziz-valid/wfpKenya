@@ -4,7 +4,7 @@
 \name{community}
 \alias{community}
 \title{Raw community dataset from WFP Kenya CSP outcome monitoring survey}
-\format{A data.frame with 202 rows and 23 columns}
+\format{A data.frame with 203 rows and 25 columns}
 \source{
 WFP Kenya CSP outcome monitoring survey data collection from
   15-29 August 2019

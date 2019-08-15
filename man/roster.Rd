@@ -4,7 +4,7 @@
 \name{roster}
 \alias{roster}
 \title{Raw roster dataset from WFP Kenya CSP outcome monitoring survey}
-\format{A data.frame with 16520 rows and 37 columns}
+\format{A data.frame with 16518 rows and 39 columns}
 \source{
 WFP Kenya CSP outcome monitoring survey data collection from
   15-29 August 2019

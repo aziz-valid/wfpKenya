@@ -4,7 +4,7 @@
 \name{household}
 \alias{household}
 \title{Raw household dataset from WFP Kenya CSP outcome monitoring survey}
-\format{A data.frame with 656 columns and 3057 rows of per household
+\format{A data.frame with 658 columns and 3036 rows of per household
   observations.}
 \source{
 WFP Kenya CSP outcome monitoring survey data collection from
