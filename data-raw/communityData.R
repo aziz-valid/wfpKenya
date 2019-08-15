@@ -18,26 +18,12 @@ temp <- get_wfp_data(id = "community",
                      start = "2019-07-01",
                      filename = "community")
 
-## Create psu population data.frame
-
-psu <- paste(stringr::str_pad(string = temp$cid, width = 2,
-                              side = "left", pad = 0),
-             stringr::str_pad(string = temp$wid, width = 3,
-                              side = "left", pad = 0),
-             stringr::str_pad(string = temp$vid, width = 3,
-                              side = "left", pad = 0),
-             sep = "")
-
-psuData <- data.frame(psu, pop = temp$dm1)
-usethis::use_data(psuData, overwrite = TRUE)
-
 ## Create community data.frame
 
 community <- subset(temp,
                     select = c(-uuid, -consent1,
                                -other_village, -replacement,
-                               -replacement_name, -instanceID,
-                               -KEY))
+                               -replacement_name, -instanceID))
 
 ## Update vid for those with 999
 community[78, "vid"]  <- 118
@@ -50,8 +36,6 @@ community[community$wid == 117, "vid"] <- 227
 community[community$cid == 6 & community$wid == 104, "vid"] <- 135
 
 ## Update vid for those with duplicates
-
-table(community$vid)[table(community$vid) > 1]
 
 ## Check vid == 22
 #community[community$cid == 8 & community$wid == 9 & community$vid == 22, "wid"] <- 103
@@ -197,9 +181,66 @@ community[community$cid == 1 & community$wid == 43 & community$vid == 177, "vid"
 ##
 community[197, "vid"] <- 185
 community[198, "vid"] <- 246
+##
+#community <- rbind(community, community[community$vid == 133, ])
+#community[nrow(community), "vid"] <- 134
 
-community <- data.frame(psu, community)
+community[stringr::str_detect(string = community$KEY, pattern = "uuid:131a47fa"), "wid"] <- 95
+community[stringr::str_detect(string = community$KEY, pattern = "uuid:131a47fa"), "vid"] <- 127
+
+community[community$cid == 12 & community$wid == 72 & community$vid == 246, "vid"] <- 213
+community[community$cid == 12 & community$wid == 72 & community$vid == 182, "vid"] <- 255
+community[community$vid == 94, "vid"] <- 93
+
+community[145, "wid"] <- 61
+community[145, "vid"] <- 207
+
+community[134, "wid"] <- 58
+community[134, "vid"] <- 34
+
+community[community$vid == 148, "wid"] <- 17
+community[community$vid == 148, "vid"] <- 147
+
+community[2, "vid"] <- 175
+
+community[community$vid == 71, "vid"] <- 222
+
+community[146, "vid"] <- 1961
+
+community[community$vid == 13, "vid"] <- 12
+
+community[community$vid == 196, "vid"] <- 206
+
+#community[876, "vid"] <- 209
+
+community[116, "vid"] <- 224
+
+community[149, "vid"] <- 253
+
+community[87, "vid"] <- 252
+community[88, "vid"] <- 209
+
+community[150, "vid"] <- 211
+
+community[117, "vid"] <- 141
+
+community[107, "vid"] <- 198
+
+community <- data.frame(rbind(community, community[49, ]))
+community[49, "vid"] <- 181
+
+community[112, "vid"] <- 178
+
+community[4, "vid"] <- 239
+community[113, "vid"] <- 263
+
 usethis::use_data(community, overwrite = TRUE)
+
+## Create psu population data.frame
+
+psuData <- community[, c("vid", "dm1")]
+usethis::use_data(psuData, overwrite = TRUE)
+
 
 ## Read xlsform
 
