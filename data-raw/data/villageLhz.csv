@@ -1,0 +1,272 @@
+"countyID","countyLab","wardID","wardLab","villageID","villageLab","lhz","studyGroup","psu"
+2,"Garissa",74,"Maalimini","100","Maalimin",2,1,2074100
+1,"Baringo",122,"Saimo-soi","14","Barketiew 1",3,1,1122014
+1,"Baringo",122,"Saimo-soi","15","Barketiew 2",3,1,1122015
+1,"Baringo",122,"Saimo-soi","158","Sibilo",3,1,1122158
+1,"Baringo",20,"Ewalel","168","Talai",3,2,1020168
+1,"Baringo",20,"Ewalel","187","village 11",3,2,1020187
+2,"Garissa",74,"Maalimini","214","village 38",2,2,2074214
+1,"Baringo",122,"Saimo-soi","229","village 53",3,2,1122229
+1,"Baringo",130,"Tangulbei","232","village 56",3,2,1130232
+1,"Baringo",22,"Ewalel","248","village 72",3,2,1020248
+1,"Baringo",130,"Tangulbei","26","Chemoigut 1",3,1,1130026
+1,"Baringo",122,"Saimo-soi","261","village 85",3,2,1122261
+1,"Baringo",130,"Tangulbei","27","Chemoigut 2",3,1,1130027
+1,"Baringo",122,"Saimo-soi","5","Akorian",3,1,1122005
+1,"Baringo",21,"Ewalel","68","Kipcherere",3,2,1020068
+1,"Baringo",130,"Tangulbei","76","Komolion",3,1,1130076
+2,"Garissa",74,"Maalimini","99","bulagolol",2,1,2074099
+2,"Garissa",96,"Nanighi","1","jalish",2,1,2096001
+3,"Isiolo",99,"Ngaremara","10","Ariamawoi",2,1,3099010
+1,"Baringo",60,"Lembus Soi","101","Machege",3,2,1060101
+8,"Marsabit",75,"MAIKONA","102","Maikona",1,2,8075102
+10,"Taita Taveta",92,"Mwatate","103","Majego",5,2,10092103
+1,"Baringo",18,"Emining","104","Majimoto",3,1,1018104
+4,"Kilifi",77,"Malindi Town","105","Malindi",5,2,4077105
+6,"Kwale",97,"Ndavaya","106","Mapfanga",5,2,6097106
+4,"Kilifi",78,"Marafa","107","Marafa",5,2,4078107
+4,"Kilifi",79,"Mariakani","108","Matsavini",5,2,4079108
+6,"Kwale",93,"Mwavumbo","109","Maweu",5,2,6093109
+11,"Tana River",145,"Wayu","11","Balguda",2,2,11145011
+1,"Baringo",86,"Mchongoi","110","Mbechot",3,1,1086110
+7,"Makueni",85,"Mbooni","111","Mbooni",4,2,7085111
+4,"Kilifi",79,"Mariakani","112","Mdzimure",5,2,4079112
+1,"Baringo",30,"Ilchamus","113","Meisori",3,1,1030113
+4,"Kilifi",78,"Marafa","114","Mizijini",5,2,4078114
+12,"Turkana",94,"Nakalale","115","Moruangibuin",1,1,12094115
+12,"Turkana",35,"Kakuma","116","Morung'ole",1,1,12035116
+10,"Taita Taveta",9,"Bura","117","Mrugua",5,2,10009117
+10,"Taita Taveta",92,"Mwatate","118","Mtungi",5,2,10092118
+1,"Baringo",52,"Kisanana","119","Mugurin",3,1,1052119
+8,"Marsabit",114,"Obbu","12","Bandarero 1",1,1,8114012
+1,"Baringo",90,"Mukutani","120","Mukutani",3,1,1090120
+5,"Kitui",84,"Mbitini","121","Mulala",4,2,5084121
+5,"Kitui",42,"Kanziko","122","Muthue",4,2,5042122
+4,"Kilifi",3,"Bamba","123","Mutuli",5,2,4003123
+4,"Kilifi",3,"Bamba","124","Mwakwala",5,2,4003124
+10,"Taita Taveta",92,"Mwatate","125","Mwatate",5,2,10092125
+12,"Turkana",95,"Nanam","126","Nanam 1",1,1,12095126
+12,"Turkana",95,"Nanam","127","Nanam 2",1,1,12095127
+12,"Turkana",49,"Kerio Delta","128","Nangolekuruk",1,1,12049128
+2,"Garissa",96,"Nanighi","129","Nanighi",2,1,2096129
+8,"Marsabit",114,"Obbu","13","Bandarero 2",1,1,8114013
+12,"Turkana",128,"Songkot","130a","Napeikar",1,1,NA
+12,"Turkana",35,"Kakuma","131","Natiir 1",1,1,12035131
+12,"Turkana",35,"Kakuma","132","Natiir 2",1,1,12035132
+12,"Turkana",69,"Lokichoggio","133","Natiir (Lokichoggio) 1",1,1,12069133
+12,"Turkana",69,"Lokichoggio","134","Natiir (Lokichoggio) 2",1,1,12069134
+12,"Turkana",37,"Kalobeyei","135","Natiira 1",1,1,12037135
+12,"Turkana",37,"Kalobeyei","136","Natiira 2",1,1,12037136
+1,"Baringo",133,"Tirioko","137","Ngaina 1",3,1,1133137
+1,"Baringo",133,"Tirioko","138","Ngaina 2",3,1,1133138
+1,"Baringo",73,"Loyamorok","139","Nginyang' East 1",3,1,1073139
+1,"Baringo",73,"Loyamorok","140","Nginyang' East 2",3,1,1073140
+8,"Marsabit",103,"North Horr","141","North Horr",1,1,8103141
+11,"Tana River",21,"Garsen Central","142","Odole",2,2,11021142
+3,"Isiolo",115,"Oldonyiro","143","Oldonyiro",2,1,3115143
+1,"Baringo",51,"Kisanana","144","Olkokwe",3,1,1051144
+10,"Taita Taveta",9,"Bura","145","Omari",5,2,10009145
+9,"Samburu",2,"Baawa","146","Opiroi",1,1,9002146
+2,"Garissa",17,"Danyere","147","Orahey 1",2,1,2017147
+2,"Garissa",17,"Danyere","148","Orahey 2",2,1,2017148
+4,"Kilifi",31,"Junju","149","Pingilikani",5,2,4031149
+8,"Marsabit",24,"Golbo","150","Qalaliwe",1,1,8024150
+4,"Kilifi",78,"Marafa","151","Ramada",5,2,4078151
+11,"Tana River",12,"Chewani","152","Rhoka",2,1,11012152
+10,"Taita Taveta",92,"Mwatate","153","Secho",5,2,10092153
+2,"Garissa",124,"Sankuri","154","Shabaah",2,1,2124154
+3,"Isiolo",10,"Burat","155","Shambani",2,1,3010155
+11,"Tana River",22,"Garsen South","156","Shirikisho-kibusu 1",2,1,11022156
+11,"Tana River",22,"Garsen South","157","Shirikisho-kibusu 2",2,1,11022157
+5,"Kitui",42,"Kanziko","159","Simisi",4,2,5042159
+1,"Baringo",80,"Marigat","16","Bekibon",3,1,1080016
+4,"Kilifi",77,"Malindi Town","160","Sinoia",5,2,4077160
+9,"Samburu",1,"Angata Nanyokie","161","Soit Naibor",1,1,9001161
+8,"Marsabit",127,"SOLOLO","162","Sololo",1,2,8127162
+8,"Marsabit",44,"Kargi/South Horr 1","163","SouthHorr",1,1,8044163
+8,"Marsabit",45,"Kargi/South Horr 2","164","SouthHorr",1,1,8045164
+9,"Samburu",129,"Suguta Marmar","165","Suguta Marmar-Lariak Orok 1",1,1,9129165
+9,"Samburu",129,"Suguta Marmar","166","Suguta Marmar-Lariak Orok 2",1,1,9129166
+5,"Kitui",113,"Nzambani","167","Syolima",4,2,5113167
+4,"Kilifi",3,"Bamba","169","Tindini",5,2,4003169
+4,"Kilifi",3,"Bamba","17","Bengoni",5,2,4003017
+11,"Tana River",145,"Wayu","170","Titila",2,2,11145170
+4,"Kilifi",79,"Mariakani","171","Tsangatsini",5,2,4079171
+13,"Wajir",106,"Not specified3","172","Tulatula",2,1,13106172
+1,"Baringo",4,"Bartabwa","173","Tuluk",3,1,1004173
+12,"Turkana",70,"Lokiriama/Lorengippi","174","Urum",1,1,12070174
+5,"Kitui",134,"Tseikuru","175","Usueni",4,2,5134175
+7,"Makueni",85,"Mbooni","176","Utangwa",4,2,7085176
+4,"Kilifi",3,"Bamba","177","village 1",5,2,4003177
+13,"Wajir",5,"Barwaqo","178","village 2",2,2,13005178
+1,"Baringo",6,"Barwessa","179","village 3",3,2,1006179
+4,"Kilifi",78,"Marafa","18","Bibitoli",5,2,4078018
+3,"Isiolo",8,"BULA PESA","180","village 4",2,2,3008180
+10,"Taita Taveta",9,"Bura","181","village 5",5,2,10009181
+13,"Wajir",11,"Burder","182","village 6",2,2,13011182
+1,"Baringo",13,"Churo/Amaya","183","village 7",3,2,1013183
+4,"Kilifi",14,"Dabaso","184","village 8",5,2,4014184
+2,"Garissa",15,"Dadaab","185","village 9",2,2,2015185
+5,"Kitui",19,"Endau/malalani","186","village 10",4,2,5019186
+11,"Tana River",21,"Garsen Central","188","village 12",2,2,11021188
+13,"Wajir",23,"Godoma","189","village 13",2,2,13023189
+4,"Kilifi",31,"Junju","19","Bomani",5,2,4031019
+2,"Garissa",25,"Goreale","190","village 14",2,2,2025190
+13,"Wajir",26,"Habasswein","191","village 15",2,2,13026191
+1,"Baringo",28,"Iichamus","192","village 16",3,2,1028192
+4,"Kilifi",31,"Junju","193","village 17",5,2,4031193
+1,"Baringo",33,"Kabarnet","194","village 18",3,2,1033194
+1,"Baringo",34,"Kabartonjo","195","village 19",3,2,1034195
+7,"Makueni",36,"Kalawa/ Kathulumbi","196","village 20",4,2,7036196
+12,"Turkana",38,"Kalokol","197","village 21",1,2,12038197
+10,"Taita Taveta",39,"Kaloleni ","198","village 22",5,2,10039198
+12,"Turkana",40,"Kanamkemer","199","village 23",1,2,12040199
+2,"Garissa",96,"Nanighi","2","Abakdera",2,1,2096002
+13,"Wajir",107,"Not specified4","20","Burder 1",2,1,13107020
+5,"Kitui",41,"Kanyangi","200","village 24",4,2,5041200
+1,"Baringo",43,"Kapropita","201","village 25",3,2,1043201
+7,"Makueni",46,"Kathonzweni","202","village 26",4,2,7046202
+7,"Makueni",46,"Kathonzweni","203","village 27",4,2,7046203
+5,"Kitui",48,"Kauwi","204","village 28",4,2,5048204
+5,"Kitui",55,"Kyangwithya east","205","village 29",4,2,5055205
+8,"Marsabit",56,"LAISAMIS","206","village 30",1,2,8056206
+1,"Baringo",61,"Lembus/Perkerra","207","village 31",3,2,1061207
+12,"Turkana",64,"Lobokat","208","village 32",1,2,12064208
+8,"Marsabit",66,"Logologo","209","village 33",1,1,8066209
+13,"Wajir",111,"Not specified8","21","Burder 2",2,1,13111021
+1,"Baringo",67,"Loiyamorok","210","village 34",3,2,1067210
+8,"Marsabit",68,"LOIYANGALANI","211","village 35",1,2,8068211
+12,"Turkana",71,"Lokori/kochodin","212","village 36",1,2,12071212
+12,"Turkana",72,"Lopur","213","village 37",1,2,12072213
+4,"Kilifi",76,"Malindi","215","village 39",5,2,4076215
+4,"Kilifi",76,"Malindi","216","village 40",5,2,4076216
+7,"Makueni",82,"Masongaleni","217","village 41",4,2,7082217
+4,"Kilifi",83,"Matsangoni","218","village 42",5,2,4083218
+1,"Baringo",89,"Mogotio","219","village 43",3,2,1089219
+8,"Marsabit",103,"North Horr","22","Burra",1,1,8103022
+1,"Baringo",91,"Mumberes/Maji Mazuri","220","village 44",3,2,1091220
+9,"Samburu",98,"Ndoto","221","village 45",1,2,9098221
+5,"Kitui",101,"Nguni","222","village 46",4,2,5101222
+7,"Makueni",102,"Nguumo","223","village 47",4,2,7102223
+8,"Marsabit",103,"North Horr","224","village 48",1,2,8103224
+3,"Isiolo",115,"Oldonyiro","225","village 49",2,2,3115225
+9,"Samburu",116,"Porro","226","village 50",1,2,9116226
+6,"Kwale",117,"Ramisi","227","village 51",5,2,6117227
+1,"Baringo",118,"Ravine","228","village 52",3,2,1118228
+10,"Taita Taveta",92,"Mwatate","23","Chabia",5,2,10092023
+1,"Baringo",123,"Saimoi/kipsaraman","230","village 54",3,2,1123230
+4,"Kilifi",125,"Shimo La Tewa","231","village 55",5,2,4125231
+13,"Wajir",131,"Tarbaj","233","village 57",2,2,13131233
+6,"Kwale",135,"Tsimba Golini","234","village 58",5,2,6135234
+8,"Marsabit",136,"TURBI","235","village 59",1,2,8136235
+8,"Marsabit",139,"Uran","236","village 60",1,2,8139236
+3,"Isiolo",140,"WABERA","237","village 61",2,2,3140237
+2,"Garissa",141,"Waberi","238","village 62",2,2,2141238
+13,"Wajir",142,"Wagberi","239","village 63",2,2,13142239
+10,"Taita Taveta",92,"Mwatate","24","Chawia",5,2,10092024
+9,"Samburu",143,"Wamba north","240","village 64",1,2,9143240
+7,"Makueni",146,"Wote","241","village 65",4,2,7146241
+13,"Wajir",5,"Barwaqo","242","village 66",2,2,13005242
+4,"Kilifi",3,"Bamba","243","village 67",5,2,4003243
+1,"Baringo",13,"Churo/Amaya","244","village 68",3,2,1013244
+4,"Kilifi",14,"Dabaso","245","village 69",5,2,4014245
+2,"Garissa",15,"Dadaab","246","village 70",2,2,2015246
+5,"Kitui",19,"Endau/malalani","247","village 71",4,2,5019247
+2,"Garissa",25,"Goreale","249","village 73",2,2,2025249
+1,"Baringo",59,"Lembus Soi","25","Chemogoch",3,2,1059025
+1,"Baringo",28,"Iichamus","250","village 74",3,2,1028250
+1,"Baringo",34,"Kabartonjo","251","village 75",3,2,1034251
+8,"Marsabit",66,"Logologo","252","village 76",1,2,8066252
+8,"Marsabit",68,"LOIYANGALANI","253","village 77",1,2,8068253
+12,"Turkana",71,"Lokori/kochodin","254","village 78",1,2,12071254
+12,"Turkana",72,"Lopur","255","village 79",1,2,12072255
+7,"Makueni",82,"Masongaleni","256","village 80",4,2,7082256
+5,"Kitui",87,"Migwani","257","village 81",4,2,5087257
+1,"Baringo",89,"Mogotio","258","village 82",3,2,1089258
+1,"Baringo",91,"Mumberes/Maji Mazuri","259","village 83",3,2,1091259
+9,"Samburu",98,"Ndoto","260","village 84",1,2,9098260
+8,"Marsabit",139,"Uran","262","village 86",1,2,8139262
+13,"Wajir",142,"Wagberi","263","village 87",2,2,13142263
+4,"Kilifi",31,"Junju","264","Vipingoni",5,2,4031264
+7,"Makueni",138,"Ukia ward","265","Vuga",4,2,7138265
+11,"Tana River",27,"Hirimani","266","Walesorea",2,1,11027266
+11,"Tana River",27,"Hirimani","267","Walesorea",2,1,11027267
+12,"Turkana",62,"Letea","268","Wapet",1,1,12062268
+13,"Wajir",104,"Not specified1","269","Watiti",2,1,13104269
+10,"Taita Taveta",9,"Bura","270","Wumari",5,2,10009270
+11,"Tana River",144,"Wayu","28","Chifiri",2,2,11145028
+3,"Isiolo",99,"Ngaremara","29","Chumviyerre Etoro",2,1,3099029
+13,"Wajir",105,"Not specified2","3","Abdiwaqo",2,1,13105003
+2,"Garissa",16,"Danyere","30","Derbi",2,1,2016030
+2,"Garissa",29,"Ijara","31","Dololo",2,1,2029031
+1,"Baringo",132,"Tenges","32","Eitui",3,1,1132032
+13,"Wajir",131,"Tarbaj","33","El Ben",2,2,13131033
+1,"Baringo",58,"Lembus","34","Eldama Ravine",3,2,1058034
+8,"Marsabit",139,"Uran","35","Elebor",1,1,8139035
+3,"Isiolo",99,"Ngaremara","36","Epiding",2,1,3099036
+1,"Baringo",53,"Koibatek","37","Esageri",3,2,1053037
+2,"Garissa",81,"Masalani","38","bulagol",2,1,2081038
+2,"Garissa",81,"Masalani","39","Gababa",2,1,2081039
+13,"Wajir",110,"Not specified7","4","danaba",2,1,13110004
+4,"Kilifi",31,"Junju","40","Gongoni",5,2,4031040
+8,"Marsabit",121,"Sagante","41","Goro Rukesa 1",1,1,8121041
+8,"Marsabit",121,"Sagante","42","Goro Rukesa 2",1,1,8121042
+7,"Makueni",85,"Mbooni","43","Ithemboni",4,2,7085043
+5,"Kitui",100,"Ngomeni","44","Janoni",4,2,5100044
+4,"Kilifi",31,"Junju","45","Junju",5,2,4031045
+13,"Wajir",109,"Not specified6","46","hara",2,1,13109046
+13,"Wajir",112,"Not specified9","47","Kabadole",2,1,13112047
+1,"Baringo",53,"Koibatek","48","Kabimoi",3,2,1053048
+12,"Turkana",57,"Lapur?","49","Kachoda",1,1,12057049
+12,"Turkana",32,"Kaaleng/Kaikor","50","Kaikor/ Longelemwar",1,1,12032050
+11,"Tana River",145,"Wayu","51","Kakya",2,2,11145051
+1,"Baringo",4,"Bartabwa","52","Kalabata",3,1,1004052
+7,"Makueni",85,"Mbooni","53","Kali",4,2,7085053
+5,"Kitui",87,"Migwani","54","Kalimbui",4,2,5087054
+1,"Baringo",88,"Mochongoi","55","Kamarabuyon",3,2,1088055
+2,"Garissa",7,"Benane","56","Kambi Samaki",2,1,2007056
+13,"Wajir",108,"Not specified5","57","Kanjara",2,1,13108057
+1,"Baringo",120,"Sacho","58","Katunoi",3,1,1120058
+7,"Makueni",137,"Ukia ward","59","Kaumoni",4,2,7137059
+1,"Baringo",126,"Silale","6","Akwichatis 1",3,1,1126006
+3,"Isiolo",115,"Oldonyiro","60","Kawalash",2,1,3115060
+9,"Samburu",144,"Waso","61","Kenia",1,2,9144061
+10,"Taita Taveta",9,"Bura","62","Kidaya",5,2,10009062
+4,"Kilifi",31,"Junju","63","Kijipwa",5,2,4031063
+4,"Kilifi",76,"Malindi","64","Kijiwetanga",5,2,4076064
+7,"Makueni",85,"Mbooni","65","Kikima",4,2,7085065
+3,"Isiolo",50,"Kinna","66","Kinna North",2,1,3050066
+1,"Baringo",4,"Bartabwa","67","Kinyach",3,1,1004067
+9,"Samburu",65,"Lodokejek","69","Kirimon/Sura Adoru 1",1,1,9065069
+1,"Baringo",126,"Silale","7","Akwichatis 2",3,1,1126007
+9,"Samburu",65,"Lodokejek","70","Kirimon/Sura Adoru 2",1,1,9065070
+7,"Makueni",85,"Mbooni","71","Kithungu",4,2,7085071
+1,"Baringo",18,"Emining","72","Koitumet",3,1,1018072
+1,"Baringo",54,"Kolowa","73","Kolowa 1",3,1,1054073
+1,"Baringo",54,"Kolowa","74","Kolowa 2",3,1,1054074
+9,"Samburu",144,"Waso","75","Kom",1,2,9144075
+12,"Turkana",35,"Kakuma","77","Komudei",1,1,12035077
+1,"Baringo",119,"Ribkwo","78","Kositei",3,1,1119078
+1,"Baringo",119,"Ribkwo","79","Kositei",3,1,1119079
+1,"Baringo",13,"Churo/Amaya","8","Amaya",3,2,1013008
+7,"Makueni",46,"Kathonzweni","80","Kwa Makuli",4,2,7046080
+7,"Makueni",46,"Kathonzweni","81","Kwakavisi",4,2,7046081
+5,"Kitui",84,"Mbitini","82","Kyemundu",4,2,5084082
+5,"Kitui",84,"Mbitini","83","Kyumbe",4,2,5084083
+9,"Samburu",65,"Lodokejek","84","Langaitolia",1,1,9065084
+3,"Isiolo",10,"Burat","85","Leparua",2,1,3010085
+12,"Turkana",63,"Lobei/Koraruk","86","Lobei",1,1,12063086
+12,"Turkana",63,"Lobei/Koraruk","87","Lobei",1,1,12063087
+8,"Marsabit",66,"Logologo","88","Loglogo",1,1,8066088
+9,"Samburu",1,"Angata Nanyokie","89","Loibashie",1,1,9001089
+12,"Turkana",64,"Lobokat","9","Anglogitat",1,2,12064009
+1,"Baringo",54,"Kolowa","90","Loiwat",3,1,1054090
+1,"Baringo",133,"Tirioko","91","Lokis",3,1,1133091
+12,"Turkana",47,"Katilia","92","Lokorkor",1,1,12047092
+12,"Turkana",47,"Katilia","93","Lomunyenakwan",1,1,12047093
+12,"Turkana",47,"Katilia","94","Lomunyenakwan",1,1,12047094
+9,"Samburu",2,"Baawa","95","Lorok Lolmong'o",1,1,9002095
+1,"Baringo",126,"Silale","96","Losikiriamoi",3,1,1126096
+3,"Isiolo",115,"Oldonyiro","97","Lpusii 1",2,1,3115097
+3,"Isiolo",115,"Oldonyiro","98","Lpusii 2",2,1,3115098
+10,"Taita Taveta",9,"Bura","999","Other",5,2,10009999
