@@ -2,7 +2,7 @@
 % Please edit documentation in R/09-calculate_parity.R
 \name{calculate_gpi}
 \alias{calculate_gpi}
-\title{Function to calculate Gender Parity index per dimension indicators of the
+\title{Function to calculate Gender Parity Index per dimension indicators of the
 Abbreviated Women's Empowerment in Agriculture Index (A-WEAI).}
 \usage{
 calculate_gpi(df)
@@ -15,7 +15,7 @@ A list of two dataframes for gender gap for full sample and for
   youth sample for each of the WEAI dimension indicators.
 }
 \description{
-Function to calculate Gender Parity index per dimension indicators of the
+Function to calculate Gender Parity Index per dimension indicators of the
 Abbreviated Women's Empowerment in Agriculture Index (A-WEAI).
 }
 \examples{
