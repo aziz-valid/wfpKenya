@@ -284,19 +284,13 @@ codebookIndividual <- codebook[codebook$variable %in% names(individual), ]
 usethis::use_data(codebookIndividual, overwrite = TRUE)
 
 
-
 ################################################################################
 #
-# Data checks
+# Read livelihood zone list
 #
 ################################################################################
 
-id <- paste(stringr::str_pad(string = household$cid, width = 2, side = "left", pad = "0"),
-            stringr::str_pad(string = household$wid, width = 3, side = "left", pad = "0"),
-            stringr::str_pad(string = household$vid, width = 3, side = "left", pad = "0"),
-            sep = "")
-
-## Create CSV of check parameters
+sampleList <- read.csv("data-raw/data/villageLhz.csv")
 
 
 
