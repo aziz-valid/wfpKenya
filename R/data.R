@@ -290,3 +290,81 @@
 ################################################################################
 "mddw"
 
+
+################################################################################
+#
+#' WEAI dimensions indicators dataset
+#'
+#' @format A data.frame with 4920 rows and 11 columns
+#'
+#' \describe{
+#' \item{\code{psu}}{Primary sampling unit or village identifier}
+#' \item{\code{hhid}}{Household identifier}
+#' \item{\code{sex}}{Sex of respondent; 1 = Male; 2 = Female}
+#' \item{\code{age}}{Age of respondent in years}
+#' \item{\code{respondent}}{Respondent type; 1 = head; 2 = spouse of head;
+#'   3 = male youth household member; 4 = female youth household member}
+#' \item{\code{studyGroup}}{Study group; 1 = intervention; 2 = control}
+#' \item{\code{lhz}}{Livelihood zone}
+#' \item{\code{production}}{Production dimension indicator for WEAI}
+#' \item{\code{resources}}{Resources dimension indicator for WEAI}
+#' \item{\code{credit}}{Credit dimension indicator for WEAI}
+#' \item{\code{group}}{Group dimension indicator for WEAI}
+#' }
+#'
+#' @source WFP Kenya CSP outcome monitoring survey data collection from
+#'   15-29 August 2019
+#'
+#
+################################################################################
+"weai"
+
+
+################################################################################
+#
+#' GPI for head of household paired dataset
+#'
+#' @format A data.frame with 1429 rows and 8 columns
+#'
+#' \describe{
+#' \item{\code{psu}}{Primary sampling unit or village identifier}
+#' \item{\code{hhid}}{Household identifier}
+#' \item{\code{studyGroup}}{Study group; 1 = intervention; 2 = control}
+#' \item{\code{lhz}}{Livelihood zone}
+#' \item{\code{production}}{Production dimension indicator for WEAI}
+#' \item{\code{resources}}{Resources dimension indicator for WEAI}
+#' \item{\code{credit}}{Credit dimension indicator for WEAI}
+#' \item{\code{group}}{Group dimension indicator for WEAI}
+#' }
+#'
+#' @source WFP Kenya CSP outcome monitoring survey data collection from
+#'   15-29 August 2019
+#'
+#
+################################################################################
+"gpiHead"
+
+
+################################################################################
+#
+#' GPI for youth of household paired dataset
+#'
+#' @format A data.frame with 818 rows and 8 columns
+#'
+#' \describe{
+#' \item{\code{psu}}{Primary sampling unit or village identifier}
+#' \item{\code{hhid}}{Household identifier}
+#' \item{\code{studyGroup}}{Study group; 1 = intervention; 2 = control}
+#' \item{\code{lhz}}{Livelihood zone}
+#' \item{\code{production}}{Production dimension indicator for WEAI}
+#' \item{\code{resources}}{Resources dimension indicator for WEAI}
+#' \item{\code{credit}}{Credit dimension indicator for WEAI}
+#' \item{\code{group}}{Group dimension indicator for WEAI}
+#' }
+#'
+#' @source WFP Kenya CSP outcome monitoring survey data collection from
+#'   15-29 August 2019
+#'
+#
+################################################################################
+"gpiYouth"
