@@ -18,7 +18,8 @@
 
 calculate_gpi <- function(df) {
 
-  df <- data.frame(df[ , c("KEY", "sex", "hh_member_age", "respondent")],
+  df <- data.frame(df[ , c("vid", "KEY", "sex", "hh_member_age",
+                           "respondent", "studyGroup", "lhz")],
                    production = calculate_production(df = df),
                    resources = calculate_resources(df = df),
                    credit = calculate_credit(df = df),
@@ -52,11 +53,15 @@ calculate_gpi <- function(df) {
   gYouthGap <- ifelse(rowSums(gYouth[ , c("group.x",
                                           "group.y")]) == 1, 1, 0)
 
-  mainGap <- data.frame(pMainGap, rMainGap, cMainGap, gMainGap)
-  names(mainGap) <- c("production", "resources", "credit", "group")
+  mainGap <- data.frame(gMain[ , c("vid.x", "KEY", "studyGroup.x", "lhz.x")],
+                        pMainGap, rMainGap, cMainGap, gMainGap)
+  names(mainGap) <- c("psu", "hhid", "studyGroup", "lhz",
+                      "production", "resources", "credit", "group")
 
-  youthGap <- data.frame(pYouthGap, rYouthGap, cYouthGap, gYouthGap)
-  names(youthGap) <- c("production", "resources", "credit", "group")
+  youthGap <- data.frame(gYouth[ , c("vid.x", "KEY", "studyGroup.x", "lhz.x")],
+                         pYouthGap, rYouthGap, cYouthGap, gYouthGap)
+  names(youthGap) <- c("psu", "hhid", "studyGroup", "lhz",
+                       "production", "resources", "credit", "group")
 
   gap <- list(mainGap, youthGap)
   names(gap) <- c("main", "youth")
