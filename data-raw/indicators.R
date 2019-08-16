@@ -40,3 +40,38 @@ names(mddw) <- c("psu", "hhid", "sex", "age", "respondent", "studyGroup", "lhz",
 usethis::use_data(mddw, overwrite = TRUE)
 
 
+################################################################################
+#
+# Create indicator dataset for 4 dimensions of WEAI (production, resources,
+# credit, group)
+#
+################################################################################
+
+weai <- data.frame(individual[ , coreVars],
+                   calculate_production(df = individual),
+                   calculate_resources(df = individual),
+                   calculate_credit(df = individual),
+                   calculate_group(df = individual))
+
+names(weai) <- c("psu", "hhid", "sex", "age", "respondent", "studyGroup",
+                 "lhz", "production", "resources", "credit", "group")
+
+usethis::use_data(weai, overwrite = TRUE)
+
+
+################################################################################
+#
+# Create indicator dataset for gender parity of WEAI dimensions
+#
+################################################################################
+
+temp <- calculate_gpi(individual)
+
+gpiHead <- temp[[1]]
+gpiHead <- gpiHead[!is.na(gpiHead$psu), ]
+usethis::use_data(gpiHead, overwrite = TRUE)
+
+
+gpiYouth <- temp[[2]]
+gpiYouth <- gpiYouth[!is.na(gpiYouth$psu), ]
+usethis::use_data(gpiYouth, overwrite = TRUE)
