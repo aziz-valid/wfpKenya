@@ -18,7 +18,8 @@ Imports:
     dplyr,
     ppitables,
     stringr,
-    odkr (>= 0.3.2)
+    odkr (>= 0.3.2),
+    bbw
 Remotes: 
     validmeasures/odkr
 Encoding: UTF-8
